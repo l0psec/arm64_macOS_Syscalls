@@ -10,9 +10,9 @@
 - Print machine uuid
 - Remove extended attribute
 
-This is still a work in progress so I plan on adding more along with ES Event Type mappings. 
+This is still a work in progress so I plan on adding more along with more ES Event Type mappings. 
 
-# Instructions to build the example arm code
+# Instructions to build the example arm64 code
 
 **STEP ONE:**
 Download the .s file of choice.

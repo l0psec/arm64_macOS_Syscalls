@@ -2,7 +2,7 @@
 ### This project includes examples of code written in arm64 using syscalls to replicate known malicious behavior. 
 
 **Behaviors:**
-- Execute script
+- Execute a file
 - Add execute permission flag
 - Create a file
 - Create a directory

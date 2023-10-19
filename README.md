@@ -1,5 +1,5 @@
 # arm64 Syscall Examples
-### This project includes examples of code written in arm64 using syscalls to replicate known malicious behavior. 
+### This project includes examples of code written in arm64 using syscalls to replicate behvaiors that could be used maliciously. 
 
 **Behaviors:**
 - Launch a shell

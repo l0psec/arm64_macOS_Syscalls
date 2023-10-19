@@ -9,8 +9,8 @@
 - Remove a directory
 - Print machine uuid
 - Remove extended attribute
-- Reverse shell
-- More being added
+
+This is still a work in progress so I plan on adding more along with ES Event Type mappings. 
 
 # Instructions to build the example arm code
 

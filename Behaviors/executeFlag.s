@@ -13,9 +13,9 @@ _start:
         svc     0xFFFF
 
 exit:                           
-        mov     x0, #0
-        mov     x16, #1
-        svc     0xFFFF
+        mov     x0, #0      // error code parameter for exit syscall
+        mov     x16, #1     // exit syscall value
+        svc     0xFFF        // supervisor call
 
 
 path:

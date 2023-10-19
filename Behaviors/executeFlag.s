@@ -7,9 +7,9 @@
 .align 2
 
 _start:
-        adr     x0, path        //path to the target file
-        mov     x1, #0755       //mode value
-        mov     x16, 0xf        //Syscall value 15 for chmod
+        adr     x0, path                //path to the target file
+        mov     x1, #0755               //mode value
+        mov     x16, 0xf                //Syscall value 15 for chmod
         svc     0xFFFF
 
 exit:                           
@@ -19,4 +19,4 @@ exit:
 
 
 path:
-.asciz "/private/tmp/testfile.sh" 
+.asciz "/private/tmp/testfile.sh"         //Point to whichever file you're testing

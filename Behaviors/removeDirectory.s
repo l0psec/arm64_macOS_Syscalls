@@ -1,6 +1,7 @@
 //This removes a directory with the rmdir syscall
 //int rmdir(char *path)
 
+//Mitre - T1070.004 - Indicator Removal: File Deletion
 
 .global _start
 .align 2

@@ -1,4 +1,8 @@
-//launch a zsh shell , can be used for reverse shell
+//launch a zsh shell , can be used for reverse shell. 
+//int execve(char *fname, char **argp, char **envp) NO_SYSCALL_STUB;
+
+//Mitre - T1059 - Command and Scripting Interpreter
+
 .global _start
 .align 4
 _start:

@@ -1,4 +1,5 @@
 // This uses the removexattr syscall to remove an extended attribute of a target file.  
+
 //Mitre - T1553.001 - Subvert Trust Controls: Gatekeeper Bypass
 //ES Event Type - es_event_deleteextattr_t
 

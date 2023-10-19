@@ -1,7 +1,7 @@
 //This adds the execute permission to a target file. Similar to executing chmod +x, but without launching the chmod process. 
+//int chmod(user_addr_t path, int mode)
 
 //Mitre - T1222.002
-//int chmod(user_addr_t path, int mode)
 
 .global _start
 .align 2

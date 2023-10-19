@@ -1,4 +1,4 @@
-//launch a zsh shell
+//launch a zsh shell , can be used for reverse shell
 .global _start
 .align 4
 _start:

@@ -1,7 +1,7 @@
 //This uses the sysctl gethostuuid syscall to obtain the uuid from the endpoint
 //int gethostuuid(unsigned char *uuid_buf, const struct timespec *timeoutp);
 
-//Mitre - T1082
+//Mitre - T1082 - System Information Discovery
 
 .global _start
 .align 2

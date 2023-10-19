@@ -31,3 +31,4 @@ ld -o <outputBinaryName> <sourceFileName>.o -lSystem -syslibroot `xcrun -sdk mac
 **Special Thanks to:**
 - https://github.com/below/HelloSilicon
 - HackVlix
+- Maria Markstedter for their awesome book. 

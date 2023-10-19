@@ -3,8 +3,8 @@
 .global _start
 .align 2
 _start:
-        adr     x0, path    // loading the ascii string in path label as path parameter for syscall
-        adr     x1, att     // loading the ascii string in att label as name parameter for syscall
+        adr     x0, path    // loading the ascii string in path label as path parameter
+        adr     x1, att     // loading the ascii string in att label as name parameter
         mov     x2, #0      // moving 0 value for int option parameter
         mov     x16, #0xee  // moving syscall value in hex for removexattr into x16
         svc     0x80        // supervisor call

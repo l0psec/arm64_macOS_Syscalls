@@ -5,16 +5,16 @@
 .align 2
 
 _start:
-	adr	x0, path
-	mov	x1, 0x200
-	mov	x2, #0744
-	mov	x16, #5
-	svc	0x80
+	adr	x0, path			//path of the file
+	mov	x1, 0x200			//flags
+	mov	x2, #0744			//mode
+	mov	x16, #5				//syscall for open
+	svc	0xFFFF
 
 exit:
 	mov	x0, #0
 	mov	x16, #1
-	svc	0x80
+	svc	0xFFFF
 
 path:
-.asciz "/private/tmp/createASMopen"	
+.asciz "/private/tmp/newFile"			//change the value for the target file

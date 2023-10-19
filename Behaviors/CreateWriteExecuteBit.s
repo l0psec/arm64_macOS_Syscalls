@@ -72,7 +72,7 @@ exit:
 	svc	0xFFFF
 
 welMessage:
-.asciz "Creating directory in temp...\n"
+.asciz "Creating directory in tmp...\n"
 .align 2
 
 twoMessage:

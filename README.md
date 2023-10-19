@@ -1,9 +1,9 @@
 # arm64 Syscall Examples
 ### This project includes examples of code written in arm64 using syscalls to replicate behvaiors that could be used maliciously. 
 
-**Behaviors:**
+**Behaviors Covered:**
 - Launch a shell
-- Add execute permission flag
+- Add execute permission
 - Create a file
 - Create a directory
 - Remove a directory

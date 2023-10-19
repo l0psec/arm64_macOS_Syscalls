@@ -1,4 +1,4 @@
-//This example focuses on the usage of different syscalls and branches to create a directory, create a file in that directory, and set the execute permission flag. 
+//This example focuses on the usage of different syscalls and branches to create a directory, create a file in that directory, and set the execute permission flag for the created file. 
 //Each behavior also prints to stdout which can be useful for debugging. 
 
 .global _start

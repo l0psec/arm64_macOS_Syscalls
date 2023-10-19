@@ -1,4 +1,4 @@
-//
+//  Added this one because arm64 is fun so making a quick game makes sense. 
 //  randomNumber.s
 //  
 //random number game written in arm64
@@ -27,7 +27,7 @@ entropyLoop:
 
 //Print the Welcome Screen
 greeting:
-    mov     x0, #1                              //stdOUT for write syscall
+    mov     x0, #1                              //stdout for write syscall
     adrp    x1, welcome@PAGE                    //welcome message
     add     x1, x1, welcome@PAGEOFF
     mov     x2, #61
@@ -36,7 +36,7 @@ greeting:
     
 //need to obtain input from the user
 userInput:
-    mov     x0, #0                  //stdIN
+    mov     x0, #0                  //stdin
     adrp    x1, userBuf@PAGE        //store input in a buffer
     add     x1, x1, userBuf@PAGEOFF
     mov     x2, #1                  //1 byte stored

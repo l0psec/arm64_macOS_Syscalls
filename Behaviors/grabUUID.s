@@ -1,4 +1,8 @@
-//this uses the sysctl syscall to obtain the uuid from the endpoint
+//This uses the sysctl gethostuuid syscall to obtain the uuid from the endpoint
+//int gethostuuid(unsigned char *uuid_buf, const struct timespec *timeoutp);
+
+Mitre - T1082
+
 .global _start
 .align 2
 
@@ -48,7 +52,7 @@ loadloop:
     	b.ne   	branch				//branches to the branch label to continue looping through bytes if w8 was not equal to 0x10
     	strb   	wzr, [x1]
 
-//TODO add dashes
+//TODO fix dashes
 
 
 print:

@@ -1,17 +1,16 @@
-# arm64_macOS_Syscalls
-
 # arm64 Syscall Examples
 ### This project includes examples of code written in arm64 using syscalls to replicate known malicious behavior. 
 
-**Behaviors Mapped:**
+**Behaviors:**
 - Execute script
-- Add permission flag
+- Add execute permission flag
 - Create a file
 - Create a directory
 - Remove a directory
 - Print machine uuid
 - Remove extended attribute
 - Reverse shell
+- More being added
 
 # Instructions to build the example arm code
 

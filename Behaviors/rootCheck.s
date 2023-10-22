@@ -1,3 +1,6 @@
+//grabs the uid to check if running as root. 
+//Mitre - T1033 - System Owner/User Discovery
+
 .global _start
 .align 2
 

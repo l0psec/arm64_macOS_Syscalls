@@ -9,6 +9,7 @@
 - Remove a directory
 - Print machine uuid
 - Remove extended attribute
+- Permission Check 
 
 This is still a work in progress so I plan on adding more along with more ES Event Type mappings. 
 
